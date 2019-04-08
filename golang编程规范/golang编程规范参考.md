@@ -19,3 +19,6 @@ https://github.com/golang/go/wiki/CodeReviewComments#comment-sentences
 
 ## Go编码规范指南（谢孟军版本）
 https://gocn.vip/article/1
+
+## 编写地道的Go代码
+https://colobu.com/2017/02/07/write-idiomatic-golang-codes/
