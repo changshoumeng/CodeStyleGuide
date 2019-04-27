@@ -1,4 +1,36 @@
-# ProgrammingSpecification
-  This directory will collect programming specifications within my scope of interest as far as possible to meet the requirements of constraint teams and review code.
+## ProgrammingSpecification [编程规范]
+    This directory will collect programming specifications within my scope of
+    interest as far as possible to meet the requirements of constraint teams and review code.
 
-本目录将尽可能收集到本人兴趣范围内的编程规范，以满足约束团队与检视代码的需求。
+    本目录将尽可能收集到本人兴趣范围内的编程规范，以满足约束团队与检视代码的需求。
+    
+    
+    编程规范也就是编写出简洁、可维护、可靠、可测试、高效、可移植的代码，提高产品代码的质量。
+    
+    
+#### 编程规范概要
+    1、 程序结构清晰，简单易懂，单个函数的程序行数不得超过100行。
+    2、 打算干什么，要简单，直截了当，代码精简，避免垃圾程序。
+    3、 尽量使用标准库函数和公共函数。
+    4、 不要随意定义全局变量，尽量使用局部变量。
+    5、 使用括号以避免二义性。
+    
+#### 可读性要求
+    1、可读性第一，效率第二。
+    2、保持注释与代码完全一致。
+    3、每个源程序文件，都有文件头说明，说明规格见规范。
+    4、每个函数，都有函数头说明，说明规格见规范。
+    5、主要变量（结构、联合、类或对象）定义或引用时，注释能反映其含义。
+    6、常量定义（DEFINE）有相应说明。
+    7、处理过程的每个阶段都有相关注释说明。
+    8、在典型算法前都有注释。
+    9、利用缩进来显示程序的逻辑结构，缩进量一致并以Tab键为单位，定义Tab为 6个
+    字节。
+    10、循环、分支层次不要超过五层。
+    11、注释可以与语句在同一行，也可以在上行。
+    12、空行和空白字符也是一种特殊注释。
+    13、一目了然的语句不加注释。
+    14、注释的作用范围可以为：定义、引用、条件分支以及一段代码。
+    15、注释行数（不包括程序头和函数头说明部份）应占总行数的 1/5 到 1/3 。    
+    
+    
